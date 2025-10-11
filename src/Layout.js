@@ -11,13 +11,13 @@ const Layout = () => {
             <div id="topleft">
               <ul class="ul1">
                 <li>
-                  <a href="/">TRANG CHỦ</a>
+                  <a href="/#">TRANG CHỦ</a>
                 </li>
                 <li>
                   <a href="/trang1">EGOV</a>
                 </li>
                 <li>
-                  <a href="#">SINH VIÊN</a>
+                  <a href="/trang2">SINH VIÊN</a>
                 </li>
               </ul>
             </div>

@@ -7,6 +7,10 @@ import Layout from "./Layout";
 import Trang1 from "./Trang1";
 // @ts-ignore
 import Chitietsanpham from "./Chitietsanpham";
+
+// @ts-ignore
+import Trang2 from "./Trang2";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
@@ -19,6 +23,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="trang1" element={<Trang1 />} />
           <Route path="sanpham/:id" element={<Chitietsanpham />} />
+          <Route path="trang2" element={<Trang2 />} />
         </Route>
       </Routes>
     </BrowserRouter>
