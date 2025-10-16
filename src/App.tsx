@@ -7,7 +7,8 @@ import Layout from "./Layout";
 import Trang1 from "./Trang1";
 // @ts-ignore
 import Chitietsanpham from "./Chitietsanpham";
-
+// @ts-ignore
+import ListSanPham from "./ListSanPham";
 // @ts-ignore
 import Trang2 from "./Trang2";
 
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="trang1" element={<Trang1 />} />
           <Route path="sanpham/:id" element={<Chitietsanpham />} />
           <Route path="trang2" element={<Trang2 />} />
+          <Route path="ListSanPham" element={<ListSanPham />} /> 
         </Route>
       </Routes>
     </BrowserRouter>
